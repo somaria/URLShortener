@@ -12,7 +12,7 @@ class ViewModel: ObservableObject {
   @Published var models = [Model]()
   
   func submit(urlString: String) {
-    print("submitting")
+    print("submitting again")
     
     guard URL(string: urlString) != nil else { return }
     
